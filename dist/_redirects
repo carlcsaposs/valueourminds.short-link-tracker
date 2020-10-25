@@ -1,0 +1,8 @@
+# Netlify domain redirect
+https://short-link-tracker.netlify.app/* https://www.valueourminds.com 301!
+
+# Root redirect
+/ https://www.valueourminds.com 301!
+
+# Redirect invalid links
+/* https://www.valueourminds.com 302!
