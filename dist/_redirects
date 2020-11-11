@@ -4,5 +4,9 @@ https://short-link-tracker.netlify.app/* https://www.valueourminds.com 301!
 # Root redirect
 / https://www.valueourminds.com 301!
 
+# Short links
+/0/* https://www.valueourminds.com/?qr=/0/:splat 302!
+/1/* https://www.valueourminds.com/the5/?qr=/1/:splat 302!
+
 # Redirect invalid links
 /* https://www.valueourminds.com 302!
