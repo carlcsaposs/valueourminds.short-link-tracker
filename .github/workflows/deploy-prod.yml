@@ -6,6 +6,7 @@ on:
 
 jobs:
   deploy-prod:
+    if: github.repository == 'valueourminds/short-link-tracker'
     runs-on: ubuntu-latest
 
     steps:
